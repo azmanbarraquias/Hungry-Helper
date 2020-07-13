@@ -1,13 +1,8 @@
-﻿
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 [System.Serializable]
 public class RecipeCategory
 {
-
     public FoodCategory foodCategory;
 
     public string categoryTitle;
@@ -17,4 +12,3 @@ public class RecipeCategory
     public Recipe[] recipes;
 }
 public enum FoodCategory { Pork, Beef, Chicken, Seafood, Veggie }
-

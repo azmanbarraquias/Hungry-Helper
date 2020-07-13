@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -11,7 +10,6 @@ public class RecipeTTP : MonoBehaviour
     [Range(-10, 10)]
     [Tooltip("The speech rate (speed). Allows values: from -10 (slowest speed) up to 10 (fastest speed). Default value: 0 (normal speed)")]
     public float speed = -2;
-
 
     public AudioSource audioSource;
 

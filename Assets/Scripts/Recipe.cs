@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [System.Serializable]
 public class Recipe
@@ -15,12 +13,9 @@ public class Recipe
     public string description;
 
     [TextArea(7, 7)]
-
     public string ingredient;
 
-
     [TextArea(7, 7)]
-
     public string instruction;
 
     [Space]

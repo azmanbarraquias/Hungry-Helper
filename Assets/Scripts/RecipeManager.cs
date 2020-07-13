@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Linq;
 using UnityEngine.UI;
-using System.ComponentModel;
 
 public class RecipeManager : MonoBehaviour
 {
@@ -246,5 +244,4 @@ public class RecipeManager : MonoBehaviour
         LoadBookmarkRecipes();
         LoadRecipeCategories();
     }
-
 }
